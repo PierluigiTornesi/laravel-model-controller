@@ -1,5 +1,36 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: lightgreen;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-style: oblique;
+}
+
+.col-3{
+    margin-top: 1rem;
+}
+
+.card-img-top{
+    height: 400px;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.card-body{
+    height: 250px;
+    background-color: lightgray;
 }
